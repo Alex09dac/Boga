@@ -1,0 +1,47 @@
+.home-container {
+margin: auto;
+height: 500px;
+width: 370px;
+display: flex;
+display: flow-root;
+padding: 2px 20px;
+background-color: rgba(66, 66, 66, 0.819);
+border-radius: 15px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    
+    border: 1px;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .letras{
+    font-family: 'arial';
+    font-size: 23px;
+  }
